@@ -1,0 +1,11 @@
+interface:
+  display_name: GG → Decisions → Decision Packets
+  short_description: Resolve blocking decisions one option packet at a time
+  icon_small: ./assets/icon-small.svg
+  icon_large: ./assets/icon-large.png
+  brand_color: '#22C55E'
+  default_prompt: >-
+    Use when unresolved decisions block implementation. Inventory choices, write a markdown
+    packet to disk, present a compact table-based inline summary with concrete identifiers and
+    side-by-side options, and only generate the interactive page on explicit request. Reference
+    decisions/SKILL.md when cross-referencing this skill.
